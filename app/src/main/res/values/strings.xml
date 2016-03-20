@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IntelimentAssignment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="inteliment_assignment">Inteliment Assignment</string>
+    <string name="redbutton">Red</string>
+    <string name="bluebutton">Blue</string>
+    <string name="greenbutton">Green</string>
+
+    <string name="fetching_location_data">Fetching location data pleae wait!!!</string>
+
+    <!-- Error Popup Messages -->
+    <string name="SOME_ERROR_OCCURED_NETWORK">Opps!!! Some error occured on our server. kindly try again after some time.</string>
+    <string name="LOCATION_LAT_LONG_NOT_AVAILABLE">Location latitude, longitude of selected location is not available</string>
+    <string name="ERROR_INTERNET_CONNECTION_NOT_AVIALABLE">Opps!!! Internet connection not available. Turn on the mobile data or wifi and try again.</string>
+    <string name="DATA_NOT_AVIALABLE">Data Not Available</string>
+    <string name="SELECTED_ITEM">Selected Item :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

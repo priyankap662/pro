@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".fragments.Test2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/locationNamesSpn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="170dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/modeOfTransportRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationNamesSpn"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:minHeight="100dp">
+
+        <TextView
+            android:id="@+id/modeOfTransportTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mode Of Transport :"
+            android:textColor="@color/colorAccent"
+            style="@style/SmallText"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/modeOfTransportTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/modeOfTransportTitle"
+            android:layout_marginLeft="10dp"
+            android:singleLine="false"
+            android:textColor="@color/colorAccent"
+            style="@style/SmallText"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/navigateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modeOfTransportRel"
+        android:text="Navigate"
+        style="@style/BlueButton"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
